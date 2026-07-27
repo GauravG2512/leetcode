@@ -6,8 +6,8 @@ class Solution {
             if (num > large) {
                 slarge = large;
                 large = num;
-            } else {
-                slarge = Math.max(slarge, num);
+            } else if(num>slarge) {
+                slarge = num;
             }
         }
         return (large - 1) * (slarge - 1);
