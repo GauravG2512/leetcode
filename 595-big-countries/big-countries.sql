@@ -1,0 +1,1 @@
+Select name, population, area from world where area > 2999999 OR population > 24999999;
