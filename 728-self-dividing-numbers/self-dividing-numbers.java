@@ -10,7 +10,6 @@ class Solution {
         }
         return true;
     }
-
     public List<Integer> selfDividingNumbers(int left, int right) {
         ArrayList<Integer> list = new ArrayList<>();
 
