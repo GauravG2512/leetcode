@@ -10,9 +10,7 @@ class Solution {
                 pow *= x;
             }   
             x=x*x;
-            n = n / 2;
-
-            
+            n = n / 2;    
         }
         return pow;
     }
